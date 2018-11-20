@@ -24,8 +24,9 @@
  */
 int isKaprekar(int n) {
 
+  //changed false to 0 because return type was int
   if(n < 1) {
-    return false;
+    return 0;
   }
 
   int i;
